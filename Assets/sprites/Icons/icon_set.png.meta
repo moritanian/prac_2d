@@ -1,0 +1,1023 @@
+fileFormatVersion: 2
+guid: 58517e9f3406b8f4a98646149c435b3b
+timeCreated: 1450023315
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: icon_set_0
+    21300002: icon_set_1
+    21300004: icon_set_2
+    21300006: icon_set_3
+    21300008: icon_set_4
+    21300010: icon_set_5
+    21300012: icon_set_6
+    21300014: icon_set_7
+    21300016: icon_set_8
+    21300018: icon_set_9
+    21300020: icon_set_10
+    21300022: icon_set_11
+    21300024: icon_set_12
+    21300026: icon_set_13
+    21300028: icon_set_14
+    21300030: icon_set_15
+    21300032: icon_set_16
+    21300034: icon_set_17
+    21300036: icon_set_18
+    21300038: icon_set_19
+    21300040: icon_set_20
+    21300042: icon_set_21
+    21300044: icon_set_22
+    21300046: icon_set_23
+    21300048: icon_set_24
+    21300050: icon_set_25
+    21300052: icon_set_26
+    21300054: icon_set_27
+    21300056: icon_set_28
+    21300058: icon_set_29
+    21300060: icon_set_30
+    21300062: icon_set_31
+    21300064: icon_set_32
+    21300066: icon_set_33
+    21300068: icon_set_34
+    21300070: icon_set_35
+    21300072: icon_set_36
+    21300074: icon_set_37
+    21300076: icon_set_38
+    21300078: icon_set_39
+    21300080: icon_set_40
+    21300082: icon_set_41
+    21300084: icon_set_42
+    21300086: icon_set_43
+    21300088: icon_set_44
+    21300090: icon_set_45
+    21300092: icon_set_46
+    21300094: icon_set_47
+    21300096: icon_set_48
+    21300098: icon_set_49
+    21300100: icon_set_50
+    21300102: icon_set_51
+    21300104: icon_set_52
+    21300106: icon_set_53
+    21300108: icon_set_54
+    21300110: icon_set_55
+    21300112: icon_set_56
+    21300114: icon_set_57
+    21300116: icon_set_58
+    21300118: icon_set_59
+    21300120: icon_set_60
+    21300122: icon_set_61
+    21300124: icon_set_62
+    21300126: icon_set_63
+    21300128: icon_set_64
+    21300130: icon_set_65
+    21300132: icon_set_66
+    21300134: icon_set_67
+    21300136: icon_set_68
+    21300138: icon_set_69
+    21300140: icon_set_70
+    21300142: icon_set_71
+    21300144: icon_set_72
+    21300146: icon_set_73
+    21300148: icon_set_74
+    21300150: icon_set_75
+    21300152: icon_set_76
+    21300154: icon_set_77
+    21300156: icon_set_78
+    21300158: icon_set_79
+    21300160: icon_set_80
+    21300162: icon_set_81
+    21300164: icon_set_82
+    21300166: icon_set_83
+    21300168: icon_set_84
+    21300170: icon_set_85
+    21300172: icon_set_86
+    21300174: icon_set_87
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: icon_set_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1681
+        width: 91
+        height: 121
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1680
+        width: 106
+        height: 124
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_2
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1680
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_3
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1674
+        width: 103
+        height: 126
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_4
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1680
+        width: 120
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_5
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1681
+        width: 116
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_6
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1678
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_7
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1675
+        width: 111
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_8
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1673
+        width: 113
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_9
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1687
+        width: 93
+        height: 119
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_10
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1550
+        width: 102
+        height: 127
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_11
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1544
+        width: 118
+        height: 127
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_12
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1546
+        width: 106
+        height: 124
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_13
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1542
+        width: 108
+        height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_14
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1536
+        width: 117
+        height: 132
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_15
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1538
+        width: 108
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_16
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1527
+        width: 115
+        height: 127
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_17
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1544
+        width: 124
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_18
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1550
+        width: 123
+        height: 74
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_19
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1543
+        width: 137
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1428
+        width: 124
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_21
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1429
+        width: 127
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_22
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1429
+        width: 82
+        height: 87
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_23
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1416
+        width: 82
+        height: 121
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_24
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1405
+        width: 121
+        height: 123
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_25
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1390
+        width: 97
+        height: 135
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_26
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1396
+        width: 91
+        height: 123
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_27
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1408
+        width: 122
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_28
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1404
+        width: 124
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_29
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1398
+        width: 133
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_30
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1291
+        width: 122
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_31
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1309
+        width: 121
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_32
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1304
+        width: 117
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_33
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1140
+        width: 112
+        height: 124
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1157
+        width: 119
+        height: 121
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_35
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1145
+        width: 120
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_36
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1148
+        width: 115
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_37
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1143
+        width: 112
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_38
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1150
+        width: 119
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_39
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1143
+        width: 127
+        height: 124
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_40
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 954
+        width: 87
+        height: 147
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_41
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 974
+        width: 76
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_42
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 956
+        width: 101
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_43
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 963
+        width: 80
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_44
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 961
+        width: 95
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_45
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 738
+        width: 124
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_46
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 741
+        width: 126
+        height: 127
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_47
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 742
+        width: 129
+        height: 124
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_48
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 746
+        width: 116
+        height: 123
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_49
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 744
+        width: 105
+        height: 132
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_50
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 744
+        width: 130
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_51
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 761
+        width: 129
+        height: 121
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_52
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 761
+        width: 136
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_53
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 763
+        width: 127
+        height: 119
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_54
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 620
+        width: 141
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_55
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 622
+        width: 119
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_56
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 632
+        width: 96
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_57
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 603
+        width: 139
+        height: 133
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_58
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 593
+        width: 106
+        height: 139
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_59
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 607
+        width: 109
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_60
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 624
+        width: 118
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_61
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 626
+        width: 96
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_62
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 612
+        width: 116
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_63
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 462
+        width: 144
+        height: 127
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_64
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 487
+        width: 127
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_65
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 476
+        width: 127
+        height: 115
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_66
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 474
+        width: 108
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_67
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 449
+        width: 131
+        height: 135
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_68
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 476
+        width: 119
+        height: 115
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_69
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 480
+        width: 119
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_70
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 464
+        width: 129
+        height: 135
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_71
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 478
+        width: 131
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_72
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 331
+        width: 135
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_73
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 331
+        width: 141
+        height: 124
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_74
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 335
+        width: 114
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_75
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 331
+        width: 119
+        height: 135
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_76
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 341
+        width: 116
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_77
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 337
+        width: 119
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_78
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 333
+        width: 116
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_79
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 337
+        width: 127
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_80
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 339
+        width: 123
+        height: 123
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_81
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 114
+        width: 125
+        height: 121
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_82
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 102
+        width: 135
+        height: 127
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_83
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 108
+        width: 127
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_84
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 110
+        width: 137
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_85
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 110
+        width: 131
+        height: 164
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_86
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 122
+        width: 120
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_set_87
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 104
+        width: 121
+        height: 133
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

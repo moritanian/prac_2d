@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: daeb75de6377b3544b83503caec76f0d
+timeCreated: 1446782172
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: shoot_mats_0
+    21300002: shoot_mats_1
+    21300004: shoot_mats_2
+    21300006: shoot_mats_3
+    21300008: shoot_mats_4
+    21300010: shoot_mats_5
+    21300012: shoot_mats_6
+    21300014: shoot_mats_7
+    21300016: shoot_mats_8
+    21300018: shoot_mats_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: shoot_mats_0
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 350
+        width: 30
+        height: 130
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_mats_1
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 170
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_mats_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 169
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_mats_3
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 152
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_mats_4
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 147
+        width: 132
+        height: 124
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_mats_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 23
+        width: 102
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_mats_6
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 30
+        width: 108
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_mats_7
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 24
+        width: 114
+        height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_mats_8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 23
+        width: 126
+        height: 133
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_mats_9
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 24
+        width: 120
+        height: 126
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

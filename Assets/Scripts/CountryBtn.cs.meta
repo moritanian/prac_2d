@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: ddd64e850786433429e8f2bcfce6cf49
+timeCreated: 1453910062
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - ClickSound: {fileID: 8300000, guid: 838adddd794c5524e851928e8362205a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

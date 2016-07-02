@@ -1,0 +1,1746 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"S",
+				"musicSource"
+			],
+			[
+				"Vo",
+				"SetVolume"
+			],
+			[
+				"Set",
+				"SetSESlider"
+			],
+			[
+				"val",
+				"val"
+			],
+			[
+				"Se",
+				"Settings"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Settings.cs",
+			"settings":
+			{
+				"buffer_size": 577,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Unity/SoundManager.cs",
+			"settings":
+			{
+				"buffer_size": 1538,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "using UnityEngine;\nusing System.Collections;\n\npublic class MusicSource : MonoBehaviour {\n\n	public AudioSource efxSource; //効果音用AudioSource\n	public AudioSource musicSource; //BGM用AudioSource\n	public static MusicSource instance = null;\n	\n\n	\n	//シングルトンの処理\n	void Awake ()\n	{\n		if (instance == null)\n			instance = this;\n		else if (instance != this)\n			Destroy (gameObject);\n		\n		DontDestroyOnLoad (gameObject);\n	}\n	\n}\n",
+			"file": "Unity/MusicSource.cs",
+			"file_size": 441,
+			"file_write_time": 131032151789853798,
+			"settings":
+			{
+				"buffer_size": 412,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "MapScene.cs",
+			"settings":
+			{
+				"buffer_size": 2268,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nOmniSharp\n---------\n\n  Welcome to OmniSharpSublime!\n  \n  You can now edit C#, build your projects, run your tests, get intellisense, refactor like a pro, be shown syntax errors and lots more!\n  \n  For more information see the README and Wiki here: https://github.com/OmniSharp/omnisharp-sublime\n",
+			"settings":
+			{
+				"buffer_size": 346,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "SettingDialog.cs",
+			"settings":
+			{
+				"buffer_size": 1015,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Towerdefense/Enemy.cs",
+			"settings":
+			{
+				"buffer_size": 3570,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Unity/Token.cs",
+			"settings":
+			{
+				"buffer_size": 10343,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 63 files for \"ButtonObj\"\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\MatDisp.cs:\n   23  	static TextObj _CRout;\n   24  	static TextObj _SyntaxTxt;\n   25: 	static ButtonObj _SyntaxButton;\n   26  	static SyntaxDialog _dialog;\n   27  \n   ..\n   49  		_CRout = MyCanvas.Find<TextObj>(\"CRout\");\n   50  		_SyntaxTxt = MyCanvas.Find<TextObj>(\"SyntaxTxt\");\n   51: 		_SyntaxButton = MyCanvas.Find<ButtonObj>(\"SyntaxButton\");\n   52  \n   53  		for (int i=0; i<SprNum; i++) {\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\SyntaxDialog.cs:\n    5  \n    6  	TextObj _dialogtxt;\n    7: 	ButtonObj _yesbtn;\n    8: 	ButtonObj _nobtn;\n    9  	int stat;\n   10  \n   ..\n   13  	void Start () {\n   14  		_dialogtxt = MyCanvas.Find<TextObj>(\"Dialogtxt\");\n   15: 		_yesbtn = MyCanvas.Find<ButtonObj>(\"YesButton\");\n   16: 		_nobtn = MyCanvas.Find<ButtonObj>(\"NoButton\");\n   17  		_dialogtxt.Label = \"a\";\n   18  		Set (0);\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\StartScene\\StartScene.cs:\n   11  	public string[] start_strs = new string[str_cnt_max];\n   12  	public  TextObj _outtxt; \n   13: 	public ButtonObj _txtback;\n   14  	// Use this for initialization\n   15  	void Start () {\n   ..\n   19  		SetStr();\n   20  		_outtxt.Label = start_strs[0];\n   21: 		_txtback = MyCanvas.Find<ButtonObj>(\"txtback\");\n   22  		_txtback.Visible = true;\n   23  		_txtback.Enabled = true;\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Towerdefense\\Gui.cs:\n   11    TextObj _txtCost;\n   12    // 購入ボタン\n   13:   ButtonObj _btnBuy;\n   14    // タワー情報テキスト\n   15    TextObj _txtTowerInfo;\n   16    /// アップグレードボタン\n   17    // 射程範囲\n   18:   ButtonObj _btnRange;\n   19    // 連射速度\n   20:   ButtonObj _btnFirerate;\n   21    // 攻撃威力\n   22:   ButtonObj _btnPower;\n   23  \n   24    /// コンストラクタ\n   ..\n   33      _txtCost.Label = \"\";\n   34      // 購入ボタン\n   35:     _btnBuy = MyCanvas.Find<ButtonObj>(\"ButtonBuy\");\n   36      // タワー情報を取得する\n   37      _txtTowerInfo = MyCanvas.Find<TextObj>(\"TextTowerInfo\");\n   38      // 射程範囲ボタン\n   39:     _btnRange = MyCanvas.Find<ButtonObj>(\"ButtonRange\");\n   40      // 連射速度ボタン\n   41:     _btnFirerate = MyCanvas.Find<ButtonObj>(\"ButtonFirerate\");\n   42      // 攻撃威力ボタン\n   43:     _btnPower = MyCanvas.Find<ButtonObj>(\"ButtonPower\");\n   44    }\n   45  \n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\ButtonObj.cs:\n    6  /// uGUI Button操作モジュール\n    7  /// </summary>\n    8: public class ButtonObj : Token {\n    9  	\n   10  	/// uGUI Button\n\n17 matches across 5 files\n\n\nSearching 63 files for \"set\"\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Alloy.cs:\n   86  	}\n   87  \n   88: 	public void dummy_set(){\n   89  		\n   90  		\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\AlloySpr.cs:\n   30  		AlloySpr spr= CreateInstance2<AlloySpr> (_prefab, x,y);\n   31  		if (spr) {\n   32: 			spr.SprSet(id);\n   33  			spr.id = id;\n   34  		}\n   ..\n   50  		}\n   51  		//スケール\n   52: 		if(Cur  == id)SetScale (1.7f, 1.7f);\n   53: 		else SetScale (1.0f, 1.0f);\n   54  	}\n   55  	\n   ..\n   61  	}\n   62  \n   63: 	void SprSet(int MySpr){\n   64: 		SetSprite (Spr [MySpr]);\n   65  	}\n   66  \n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\CountryBtn.cs:\n   29  		SoundManager.instance.RandomizeSfx(ClickSound);\n   30  		MapScene.SelectedCtryId = ctrydat.id;\n   31: 		CountryDialog.Set (1, ctrydat);\n   32  	}\n   33  \n   ..\n   41  			MapScene.Putouttxt(\"\");\n   42  			MapScene.SelectedCtryId = ctrydat.id;\n   43: 			CountryDialog.Set (1, ctrydat);\n   44  			\n   45  		//} else {\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\CountryDat.cs:\n   63  		//CountryDat ctrydat = obj.AddComponent<CountryDat>();\n   64  		// スプライト設定.\n   65: 		//t.SetSprite(GetSprite(SpriteFile, SpriteName));\n   66  	\n   67  		if (id == 1)ctrydat.InsertData (1, \"Napoli\", 0, \"ナポリ。紀元前6世紀に古代ギリシア人の植民活動により建設された。西ローマ帝国滅亡まで長くローマ帝国の支配にあり、その後も流動的な状況が続く。6世紀に東ローマ帝国属州となる。\\n11世紀にはノルマン人のシチリア王国、さらに12世紀には神聖ローマ帝国の支配となる。\\n近郊にポンペイ遺跡がある。\", 1, \"NapoliBtn\");\n   ..\n   93  	public int power {\n   94  		get{ return Power;}\n   95: 		set{ \n   96  			if (0 <= value && value < 3)\n   97  				Power = value;}\n   ..\n   99  	public string btnname{\n  100  		get {return BtnName;}\n  101: 		set {BtnName = value;}\n  102  	}\n  103  \n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\CountryDialog.cs:\n   36  	}\n   37  \n   38: 	public static void Set(int stat, CountryDat ctrydat = null){\n   39  		if(_ctrydialog==null){\n   40  			_ctrydialog = MyCanvas.FindChild<CountryDialog>(\"Dialog\");\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Dialog.cs:\n   27  	{\n   28  		get { return enabled; }\n   29: 		set { enabled = value; }\n   30  	}\n   31  	\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\GameMgr.cs:\n   28  		if (Tama.Count == 0) {\n   29  			// 敵全滅\n   30: 			Util.SetFontSize (32);\n   31: 			Util.SetFontAlignment (TextAnchor.MiddleCenter);\n   32  \n   33  			float w = 128;	\n   ..\n   60  	public static void DebugPut(){\n   61  \n   62: 		Util.SetFontSize (32);\n   63: 		Util.SetFontAlignment (TextAnchor.MiddleCenter);\n   64  \n   65  		float w = 128;	\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\HpGage.cs:\n   29  	}\n   30  \n   31: 	public void SetHp(int MaxHp ,int myHp){\n   32  		this.Hp = myHp;\n   33  		this.MaxHp = MaxHp;\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\MapScene.cs:\n    9  	public AudioClip PageSound;	//ページ移動音\n   10  	// Use this for initialization\n   11: 	SettingDialog _setting_dialog  = null;\n   12   	void Start () {\n   13  		_outtxt = MyCanvas.Find<TextObj>(\"OutText\");\n   14: 		//MyCanvas.SetActive(\"Dialog\", true);\n   15  	\n   16: 		//CountryDialog.Set (0);	//国詳細ダイアログ非表示\n   17  \n   18  	}\n   ..\n   23  	}\n   24  \n   25: 	public void OnClickSetup(){\n   26  		// Start 段階では取得できないみたいなのでここで取得\n   27: 		_setting_dialog = _setting_dialog ?? MyCanvas.FindChild<SettingDialog>(\"SettingDialog\");\n   28: 		_setting_dialog.Revive();\n   29  	}\n   30  \n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Mat2.cs:\n   37  			//mat.X = x;\n   38  			//mat.Y = y;\n   39: 			mat.SprSet (SprNum);\n   40  			mat.MyNum = MyNum;\n   41  			mat.DispType = disptype;\n   ..\n   51  	// Use this for initialization\n   52  	void Start () {\n   53: 		SetSprite (Spr[MySpr]);\n   54  	\n   55  	}\n   ..\n   76  		}\n   77  		//スケール\n   78: 		if(Cur +1 == MyNum)SetScale (1.7f, 1.7f);\n   79: 		else SetScale (1.0f, 1.0f);\n   80  	}\n   81  \n   ..\n   89  	}\n   90  	\n   91: 	void SprSet(int MySpr){\n   92  		if(MySpr >=0)\n   93  			this.MySpr = MySpr;\n   94: 		SetSprite (Spr [this.MySpr]);\n   95  	}\n   96  	void OnMouseDown()\n   ..\n   98  		if (Stat == 0) {\n   99  			Stat = 1;\n  100: 			SetScale (1.7f, 1.7f);\n  101  		} else if (Stat == 1) {\n  102  			Stat = 0;\n  103: 			SetScale (1.0f, 1.0f);\n  104  		}\n  105  	}\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\MatDat.cs:\n   33  \n   34  	public string _name {\n   35: 		set{ this.Name = value;}\n   36  		get{ return this.Name;}\n   37  	}\n   38  	public double _TS {\n   39: 		set{ this.TS = value;}\n   40  		get{ return this.TS;}\n   41  	}\n   42  	public double _YM {\n   43: 		set{ this.YM = value;}\n   44  		get{ return this.YM;}\n   45  	}\n   46  	public double _CR {\n   47: 		set{ this.CR = value;}\n   48  		get{ return this.CR;}\n   49  	}\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\MatDisp.cs:\n  101  		if (-1 <= Cur + p && Cur + p < SprNum-1) {\n  102  			Cur += p;\n  103: 			//_nameout.SetLabelFormat(\"Money: ${0}\", Global.Money);\n  104  			MatParDisp (Cur + 1);\n  105  			return true;\n  ...\n  135  		if (UserData.money >= neededmoney) {\n  136  			string txt = \"$\"+ neededmoney.ToString() + \"消費して合成します。\\nよろしいですか？\";\n  137: 			_dialog.Set(1,txt);\n  138  			//GuiBflg = 1;\n  139  		} else {\n  140: 			_dialog.Set (2,\"合成に必要な金額が足りません。\");\n  141  			//GuiBflg = 2;\n  142  		}\n  ...\n  148  	public void Syntaxbutton(){	//ボタンの色　所持金不足の時薄く\n  149  		if (UserData.money < GetSyntaxMoney ()) {\n  150: 			//_SyntaxButton.SetAlpha  (0.5f);\n  151  			//_SyntaxButton.Enabled = false;\n  152  		} else {\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\material.cs:\n   37  	}\n   38  	 \n   39: 	public bool IsSetFrame()\n   40  	{\n   41  		GameObject frame = GameObject.Find (\"frame1\");\n   ..\n   55  			MoveByDrag ();\n   56  \n   57: 			if (IsSetFrame ()){\n   58  			\n   59  				status = 1;\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Particle2.cs:\n   20  		float dir = Random.Range (0, 359);\n   21  		float spd = Random.Range (10.0f, 20.0f);\n   22: 		SetVelocity (dir, spd);\n   23  \n   24  		//ClampScreen ();\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\SettingDialog.cs:\n    2  using System.Collections;\n    3  \n    4: public class SettingDialog : Dialog {\n    5  \n    6  	\n    7  	void Start () {\n    8: 		//_settingdialog = MyCanvas.FindChild<CountryDialog>(\"SettingDialog\");\n    9  	}\n   10  	\n   ..\n   15  \n   16  	public void BGMvalue(float val){\n   17: 		Settings.SetBGM(val);\n   18  	}\n   19  	public void SEvalue(float val){\n   20: 		Settings.SetSE(val == 1);\n   21  	}\n   22  \n   ..\n   24  		Vanish();\n   25  	}\n   26: 	//SoundManager.instance.SetVolume(0.12f);\n   27  }\n   28  \n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Settings.cs:\n    4  // ゲームの設定を記述\n    5  \n    6: public class Settings{\n    7  \n    8  	public const bool map_create = true; // true で作る\n    .\n   11  \n   12  	static public bool Is_SE{\n   13: 		set{return is_SE;}\n   14  	}\n   15  \n   16: 	static public void SetBGM(float val){\n   17  		bgm_val = val;\n   18  		Debug.Log(\"BGM\" + val);\n   19  \n   20  	}\n   21: 	static public void SetSE(bool SE){\n   22  		is_SE = SE;\n   23  		Debug.Log(\"SE\" + SE.ToString());\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\SyntaxDialog.cs:\n   16  		_nobtn = MyCanvas.Find<ButtonObj>(\"NoButton\");\n   17  		_dialogtxt.Label = \"a\";\n   18: 		Set (0);\n   19  	}\n   20  	\n   ..\n   24  	}\n   25  \n   26: 	public void Set(int stat, string txt = \"\"){	//stat:0 消滅　1:生成　2:生成、エラー\n   27  		this.stat = stat;\n   28  		if (stat > 0) {\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Tama.cs:\n   32  	void Start () {\n   33  		Count++;	//オブジェクトごとに呼ばれるのでこれで生成される数だけカウントできる\n   34: 		SetSize (SpriteWidth / 2, SpriteHeight / 2);\n   35  		float dir = Random.Range (0, 359);\n   36  		float spd = 1;\n   37: 		SetVelocity (dir, spd);\n   38  \n   39  		Hp = 1000;\n   ..\n   58  		}\n   59  		hpgage.Move (X + 0.4f, Y - 0.8f );\n   60: 		hpgage.SetHp (MaxHp, Hp);\n   61  	}\n   62  	public void OnMouseDown()\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\TitleMgr.cs:\n    6  	void OnGUI()\n    7  	{\n    8: 		Util.SetFontSize(32);\n    9: 		Util.SetFontAlignment (TextAnchor.MiddleCenter);\n   10  \n   11  		// フォントの位置\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\UserData.cs:\n   27  	}\n   28  \n   29: 	public static void SetMyCtry(int id){	//validationしたほうがいい\n   30  		MyCtryId = id;\n   31  	}\n   ..\n   54  	public static int money{\n   55  		get{return UserData.Money;}\n   56: 		set{UserData.Money = value;}\n   57  	}\n   58  \n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\UserDataDispForMap.cs:\n   18  		//CountryDat myctry = CountryDat.SearchById(MyCtryId);\n   19  		CountryDat myctry = CountryDat.GetDataById(MyCtryId);\n   20: 		SetData (myctry.name, OwnnedCtryIds.Length);\n   21  		Debug.Log (myctry.name);\n   22  	}\n   ..\n   27  	}\n   28  \n   29: 	static void SetData(string name ,int NumofConq){\n   30  \n   31  		_userdata._ctryname.Label = name;\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\StartScene\\StartScene.cs:\n   17  		str_cnt = 0;\n   18  		_outtxt = MyCanvas.Find<TextObj>(\"OutText\");\n   19: 		SetStr();\n   20  		_outtxt.Label = start_strs[0];\n   21  		_txtback = MyCanvas.Find<ButtonObj>(\"txtback\");\n   ..\n   24  	}\n   25  \n   26: 	void SetStr(){\n   27  		start_strs[0] = \"中世ヨーロッパ、 \\n イタリアは西ローマ帝国滅亡後、\" +\n   28  			\"フランク王国に支配されたが、フランク王国分裂後、フィレンツェ、ヴェネツィア、\" +\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\StartScene\\StartSelectCountry.cs:\n   14  	}\n   15  	public void OnClickSelect(){	//自国確定\n   16: 		UserData.SetMyCtry(MapScene.SelectedCtryId);\n   17  		MapScene.SelectedCtryId = 0;	//国選択解除\n   18: 		Set (0);\n   19  		Application.LoadLevel(\"Map\");\n   20  	}\n   21  	public void OnClickCancel(){\n   22  		MapScene.SelectedCtryId = 0;	//国選択解除\n   23: 		Set (0);\n   24  	}\n   25  }\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Towerdefense\\Cursor.cs:\n   23    {\n   24      get { return _bPlaceable; }\n   25:     set {\n   26        if(value)\n   27        {\n   28          // 配置できるので四角\n   29:         SetSprite(sprRect);\n   30        }\n   31        else\n   32        {\n   33          // 配置できないのでバッテン\n   34:         SetSprite(sprCross);\n   35        }\n   36        _bPlaceable = value;\n   ..\n   60  \n   61      // 選択しているオブジェクトを設定\n   62:     SetSelObj();\n   63    }\n   64  \n   65    /// カーソルの下にあるオブジェクトを設定する\n   66:   void SetSelObj()\n   67    {\n   68      // カーソルの下にあるオブジェクトをチェック\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Towerdefense\\CursorRange.cs:\n    6  {\n    7    /// 射程範囲の表示設定\n    8:   public void SetVisible(bool b, int lvRange)\n    9    {\n   10      // レベルから射程範囲を取得\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Towerdefense\\Enemy.cs:\n   85  		if(_tAnim%32 < 16)\n   86  		{\n   87: 			SetSprite(spr0);\n   88  		}\n   89  		else\n   90  		{\n   91: 			SetSprite(spr1);\n   92  		}\n   93  \n   ..\n  179        {\n  180          // 明るい緑\n  181:         p.SetColor(0.7f, 1, 0.7f);\n  182        }\n  183      }\n  ...\n  197        {\n  198          // 緑色を設定\n  199:         p.SetColor(0.0f, 1, 0.0f);\n  200          // 大きさを設定\n  201          p.Scale = 0.8f;\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Towerdefense\\Field.cs:\n   34    static Sprite GetChipSprite()\n   35    {\n   36:     return Util.GetSprite(\"Levels/tileset\", \"tileset_0\");\n   37    }\n   38  \n   ..\n   82    public void Load()\n   83  	{\n   84: 		if(Settings.map_create){ //作成\n   85        LoadCreate();\n   86      }else{\n   ..\n  103      _path.Add(new Vec2D(pos.X, pos.Y));\n  104      // 通路をふさぐ\n  105:     lPath.Set(pos.X, pos.Y, CHIP_NONE);\n  106      // 座標リスト作成\n  107      CreatePath(lPath, pos.X, pos.Y, _path);\n  ...\n  122      _path.Add(new Vec2D(pos.x,pos.y));\n  123      // パス作成のために開始位置をけす\n  124:     Map.Set(pos.X ,pos.Y, CHIP_NONE);\n  125      // 座標リスト作成\n  126      CreatePath(Map, pos.X, pos.Y, _path);\n  ...\n  142          // 経路を発見\n  143          // 経路をふさぐ\n  144:         layer.Set(x2, y2, CHIP_NONE);\n  145          // 座標を追加\n  146          path.Add(new Vec2D(x2, y2));\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Towerdefense\\GameMgr.cs:\n  132            _state = eState.Gameover;\n  133            // ④ゲームオーバーのUIを表示する\n  134:           MyCanvas.SetActive(\"TextGameover\", true);\n  135            break;\n  136          }\n  ...\n  274          // 初期状態に戻す\n  275          // 購入ボタンを表示する\n  276:         MyCanvas.SetActive(\"ButtonBuy\", true);\n  277          // タワー情報は非表示\n  278:         MyCanvas.SetActive(\"TextTowerInfo\", false);\n  279          // 射程範囲を非表示\n  280:         _cursorRange.SetVisible(false, 0);\n  281          // アップグレードボタンを非表示\n  282:         SetActiveUpgrade(false);\n  283          break;\n  284  \n  ...\n  286          // 購入モード\n  287          // 購入ボタンを非表示にする\n  288:         MyCanvas.SetActive(\"ButtonBuy\", false);\n  289          // タワー情報は非表示\n  290:         MyCanvas.SetActive(\"TextTowerInfo\", false);\n  291          // 射程範囲を非表示\n  292:         _cursorRange.SetVisible(false, 0);\n  293          // アップグレードボタンを非表示\n  294:         SetActiveUpgrade(false);\n  295          break;\n  296  \n  ...\n  298          // アップグレードモード\n  299          // 購入ボタンを表示する\n  300:         MyCanvas.SetActive(\"ButtonBuy\", true);\n  301          // タワー情報を表示\n  302:         MyCanvas.SetActive(\"TextTowerInfo\", true);\n  303          // 射程範囲を表示\n  304:         _cursorRange.SetVisible(true, _selTower.LvRange);\n  305:         _cursorRange.SetPosition(_cursor);\n  306          // アップグレードボタンを表示\n  307:         SetActiveUpgrade(true);\n  308          break;\n  309      }\n  ...\n  312  \n  313    /// アップグレードボタンの表示・非表示を切り替え\n  314:   void SetActiveUpgrade(bool b)\n  315    {\n  316      // 各種ボタンの表示制御\n  317:     MyCanvas.SetActive(\"ButtonRange\", b);\n  318:     MyCanvas.SetActive(\"ButtonFirerate\", b);\n  319:     MyCanvas.SetActive(\"ButtonPower\", b);\n  320    }\n  321  \n  ...\n  332  \n  333      // 射程範囲カーソルの大きさを反映\n  334:     _cursorRange.SetVisible(true, _selTower.LvRange);\n  335    }\n  336  }\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Towerdefense\\Gui.cs:\n   48    {\n   49      // Wave数を更新\n   50:     _txtWave.SetLabelFormat(\"Wave: {0}\", Global.Wave);\n   51:     _txtMoney.SetLabelFormat(\"Money: ${0}\", Global.Money);\n   52      // 生産コストを取得する\n   53      int cost = Cost.TowerProduction();\n   ..\n   56      {\n   57        // 購入モードのみテキストを設定する\n   58:       _txtCost.SetLabelFormat(\"(cost ${0})\", cost);\n   59      }\n   60      // 購入ボタンを押せるかどうかチェック\n   ..\n   66      {\n   67        bool b = (Global.Life > i);\n   68:       MyCanvas.SetActive(\"ImageLife\" + i, b);\n   69      }\n   70  \n   ..\n   74        // 選択しているタワーの情報を表示する\n   75        /*\n   76: 		_txtTowerInfo.SetLabelFormat(\n   77          \"<<Infantry Info>>\\n  Range: Lv{0}\\n  Firerate: Lv{1}\\n  Power: Lv{2}\",\n   78          tower.LvRange,\n   ..\n   83  		for( int i = 0; i< Global.TowerParMax; i++){\n   84  			bool b = (tower.LvRange>i);\n   85: 			MyCanvas.SetActive (\"RangeLv\" + (i+1),b);\n   86  			b = (tower.LvFirerate>i);\n   87: 			MyCanvas.SetActive (\"FirerateLv\" + (i+1),b);\n   88  			b = (tower.LvPower>i);\n   89: 			MyCanvas.SetActive (\"PowerLv\" + (i+1),b);\n   90  		}\n   91  \n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Towerdefense\\Particle.cs:\n   51      case eType.Ball:\n   52        // 塗りつぶしの円\n   53:       SetSprite(spr0);\n   54        break;\n   55  \n   ..\n   57      case eType.Ellipse:\n   58        // リング\n   59:       SetSprite(spr1);\n   60        _tScale = SCALE_MAX;\n   61        break;\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Towerdefense\\Shot.cs:\n   56          p.Scale = 0.6f;\n   57          // 赤色にする\n   58:         p.SetColor(1, 0.0f, 0.0f);\n   59        }\n   60      }\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Towerdefense\\Tower.cs:\n  113      c.g += 0.3f;\n  114      c.b += 0.3f;\n  115:     SetColor(c);\n  116    }\n  117  \n  ...\n  206      if (p)\n  207      {\n  208:       p.SetColor(0.2f, 0.2f, 1);\n  209      }\n  210    }\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Towerdefense\\WaveStart.cs:\n   19    const float CENTER_X = 0;\n   20    // 中心からのオフセット座標(X)\n   21:   const float OFFSET_X = 600;\n   22  \n   23    /// ④状態とタイマー\n   ..\n   31    {\n   32      // 画面外に出しておく\n   33:     X = CENTER_X + OFFSET_X;\n   34      // 非表示にしておく\n   35      Visible = false;\n   ..\n   42      Label = \"Wave \" + nWave;\n   43      // 開始演出スタート\n   44:     _timer = OFFSET_X;\n   45      _state = eState.Appear;\n   46      // 表示する\n   ..\n   70          if (_timer < 1)\n   71          {\n   72:           _timer = OFFSET_X;\n   73            _state = eState.Disappear;\n   74          }\n   ..\n   78          // ⑨退出中\n   79          _timer *= 0.9f;\n   80:         X = CENTER_X + (OFFSET_X - _timer);\n   81          if (_timer < 1)\n   82          {\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\ButtonObj.cs:\n   19  	{\n   20  		get { return _text.text; }\n   21: 		set { _text.text = value; }\n   22  	}\n   23  	/// 書式付きでテキストを設定する\n   ..\n   31  	{\n   32  		get { return enabled; }\n   33: 		set { enabled = value; }\n   34  	}\n   35  	\n   ..\n   38  	{\n   39  		get { return _button.interactable; }\n   40: 		set { _button.interactable = value; }\n   41  	}\n   42  	\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\CreateMap.cs:\n   36  		int ygoal = Random.Range(1,CHIP_HEIGHT-1);\n   37  \n   38: 		layer.Set (xstart,ystart, CHIP_PATH_START);	//開始位置set\n   39  \n   40  		if(!_Dig(layer, xstart,ystart,xgoal,ygoal))return Create();	//出来なかったら再帰呼び出し\n   ..\n  104  			}\n  105  			LogTurn(crt_dir, \"dig: \" + dist + \"max_dist: \" + max_dist + \" logturn: \" + turn_num + \":  \");\n  106: 			layer.Set (x,y,_GetTurnChip(old_dir,crt_dir)); // ターン部分セット\n  107  \n  108  			turn_num++;\n  ...\n  122  				x += (int)dir.x;\n  123  				y += (int)dir.y;\n  124: 				layer.Set (x,y,CHIP_SW);\n  125  			}\n  126  		}else if(dir == UP || dir == DOWN){\n  ...\n  128  				x += (int)dir.x;\n  129  				y += (int)dir.y;\n  130: 				layer.Set (x,y,CHIP_SH);\n  131  			}\n  132  		}else{\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\ImageObj.cs:\n   27  	{\n   28  		get { return UiImage.sprite; }\n   29: 		set { UiImage.sprite = value; }\n   30  	}\n   31  	public Color ImageColor\n   ..\n   33  \n   34  		get { return UiImage.color;}\n   35: 		set {UiImage.color = value;}\n   36  	}\n   37  \n   ..\n   44  	{\n   45  		get { return UiImage.enabled; }\n   46: 		set { UiImage.enabled = value; }\n   47  	}\n   48  	\n   ..\n   54  	{\n   55  		get { return RectTrans.localPosition.x; }\n   56: 		set\n   57  		{\n   58  			Vector3 p = RectTrans.localPosition;\n   ..\n   69  	{\n   70  		get { return RectTrans.localPosition.y; }\n   71: 		set\n   72  		{\n   73  			Vector3 p = RectTrans.localPosition;\n   ..\n   82  	/// <param name=\"x\">The x coordinate.</param>\n   83  	/// <param name=\"y\">The y coordinate.</param>\n   84: 	public void SetPosition(float x, float y)\n   85  	{\n   86  		Vector3 p = RectTrans.localPosition;\n   87: 		p.Set(x, y, p.z);\n   88  		RectTrans.localPosition = p;\n   89  	}\n   ..\n  111  	\n  112  	/// 移動量を設定.\n  113: 	public void SetVelocity (float direction, float speed)\n  114  	{\n  115  		Vector2 v;\n  ...\n  120  	\n  121  	/// 移動量を設定(X/Y).\n  122: 	public void SetVelocityXY (float vx, float vy)\n  123  	{\n  124  		Vector2 v;\n  ...\n  137  	public float VX {\n  138  		get { return RigidBody.velocity.x; }\n  139: 		set {\n  140  			Vector2 v = RigidBody.velocity;\n  141  			v.x = value;\n  ...\n  147  	public float VY {\n  148  		get { return RigidBody.velocity.y; }\n  149: 		set {\n  150  			Vector2 v = RigidBody.velocity;\n  151  			v.y = value;\n  ...\n  173  	public float GravityScale {\n  174  		get { return RigidBody.gravityScale; }\n  175: 		set { RigidBody.gravityScale = value; }\n  176  	}\n  177  }\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\Layer2D.cs:\n   57  	// @param y Y座標\n   58  	// @param v 設定する値\n   59: 	public void Set(int x, int y, int v) {\n   60  		if(IsOutOfRange(x, y)) {\n   61  			// 領域外を指定した\n   ..\n   94  		for(int y=0;y < Height;y++ ){\n   95  			for(int x=0;x< Width; x++){\n   96: 				Set(x,y,v);\n   97  			}\n   98  		}\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\MyAssetPostProcessor.cs:\n    4  using UnityEngine;\n    5  \n    6: public class MyAssetPostprocessor : AssetPostprocessor\n    7  {\n    8      /// <summary>\n    9      /// すべてのアセットのインポートが終了した際に呼び出されます\n   10      /// </summary>\n   11:     /// <param name=\"importedAssets\">インポートされたアセットのパス</param>\n   12:     /// <param name=\"deletedAssets\">削除されたアセットのパス</param>\n   13:     /// <param name=\"movedAssets\">移動したアセットの移動後のパス</param>\n   14      /// <param name=\"movedFromPath\">移動したアセットの移動前のパス</param>\n   15:     private static void OnPostprocessAllAssets(\n   16:         string[] importedAssets, \n   17:         string[] deletedAssets, \n   18:         string[] movedAssets, \n   19          string[] movedFromPath)\n   20      {\n   21:         foreach (var importedAsset in importedAssets)\n   22          {\n   23:             if(IsTmxFile(importedAsset))\n   24              {\n   25                  // TMXファイルなので拡張子を*.xmlにしてコピー\n   26:                 var newAsset = importedAsset.Replace(\".tmx\", \".xml\");\n   27                  // 古いXMLは削除\n   28:                 AssetDatabase.DeleteAsset(newAsset);\n   29:                 if(AssetDatabase.CopyAsset(importedAsset, newAsset))\n   30                  {\n   31                      // コピー実行\n   32:                     Debug.Log (\"Copy: \" + importedAsset + \" -> \" + newAsset);\n   33                  }\n   34              }\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\MyCanvas.cs:\n   12  	\n   13  	/// 表示・非表示を設定する\n   14: 	public static void SetActive(string name, bool b) {\n   15  		foreach(Transform child in _canvas.transform) {\n   16  			// 子の要素をたどる\n   ..\n   18  				// 指定した名前と一致\n   19  				// 表示フラグを設定\n   20: 				child.gameObject.SetActive(b);\n   21  				// おしまい\n   22  				return;\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\SoundManager.cs:\n   13  	UnityEngine.Audio.AudioMixer mixer;\n   14  \n   15: 	public void SetVolume(float value){\n   16: 		//mixer.SetFloat(\"BGM\", Mathf.Lerp(-80, 0, value));\n   17  	} \n   18  \n   ..\n   38  	public bool RandomizeSfx (params AudioClip[] clips)\n   39  	{\n   40: 		if(!Setting.Is_SE)return false;\n   41  		//受け取った効果音番号をランダムで指定\n   42  		int randomIndex = Random.Range(0, clips.Length);\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\TextObj.cs:\n   27  	{\n   28  		get { return UiText.text; }\n   29: 		set { UiText.text = value; }\n   30  	}\n   31  	// 書式付きでテキストを設定する\n   32: 	public void SetLabelFormat(string format, params object[] args)\n   33  	{\n   34  		Label = string.Format(format, args);\n   ..\n   42  	{\n   43  		get { return UiText.enabled; }\n   44: 		set { UiText.enabled = value; }\n   45  	}\n   46  	\n   ..\n   52  	{\n   53  		get { return RectTrans.localPosition.x; }\n   54: 		set\n   55  		{\n   56  			Vector3 p = RectTrans.localPosition;\n   ..\n   67  	{\n   68  		get { return RectTrans.localPosition.y; }\n   69: 		set\n   70  		{\n   71  			Vector3 p = RectTrans.localPosition;\n   ..\n   80  	/// <param name=\"x\">The x coordinate.</param>\n   81  	/// <param name=\"y\">The y coordinate.</param>\n   82: 	public void SetPosition(float x, float y)\n   83  	{\n   84  		Vector3 p = RectTrans.localPosition;\n   85: 		p.Set(x, y, p.z);\n   86  		RectTrans.localPosition = p;\n   87  	}\n   ..\n  109  	\n  110  	/// 移動量を設定.\n  111: 	public void SetVelocity (float direction, float speed)\n  112  	{\n  113  		Vector2 v;\n  ...\n  118  	\n  119  	/// 移動量を設定(X/Y).\n  120: 	public void SetVelocityXY (float vx, float vy)\n  121  	{\n  122  		Vector2 v;\n  ...\n  135  	public float VX {\n  136  		get { return RigidBody.velocity.x; }\n  137: 		set {\n  138  			Vector2 v = RigidBody.velocity;\n  139  			v.x = value;\n  ...\n  145  	public float VY {\n  146  		get { return RigidBody.velocity.y; }\n  147: 		set {\n  148  			Vector2 v = RigidBody.velocity;\n  149  			v.y = value;\n  ...\n  171  	public float GravityScale {\n  172  		get { return RigidBody.gravityScale; }\n  173: 		set { RigidBody.gravityScale = value; }\n  174  	}\n  175  }\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\TMXLoader.cs:\n   26    {\n   27      // レベルデータ取得.\n   28:     TextAsset tmx = Resources.Load(fLevel) as TextAsset;\n   29      if(tmx == null) {\n   30        // 読み込み失敗\n   ..\n   72              if (int.TryParse(s, out v) == false) { continue; }\n   73              // 値を設定.\n   74:             layer.Set(x, y, v);\n   75              x++;\n   76            }\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\Token.cs:\n   19      GameObject g = Instantiate (prefab, p, Quaternion.identity) as GameObject;\n   20      Type obj = g.GetComponent<Type> ();\n   21:     obj.SetVelocity (direction, speed);\n   22      return obj;\n   23    }\n   ..\n   38  		foreach(GameObject obj in Resources.FindObjectsOfTypeAll(typeof(GameObject))) {\n   39  			if (obj.name == name) {\n   40: 				string path = AssetDatabase.GetAssetOrScenePath(obj);\n   41  				string ext  = Path.GetExtension(path);\n   42  				if (ext == unityExtension) {\n   ..\n   44  					}\n   45  			}else if (obj.name == clientCameraName) {\n   46: 				string path = AssetDatabase.GetAssetOrScenePath(obj);\n   47  				string ext  = Path.GetExtension(path);\n   48  				if (ext == unityExtension) {\n   ..\n   60    public bool Exists {\n   61      get { return _exists; }\n   62:     set { _exists = value; }\n   63    }\n   64  \n   ..\n   74    public bool Visible {\n   75      get { return Renderer.enabled; }\n   76:     set { Renderer.enabled = value; }\n   77    }\n   78  \n   ..\n   80    public string SortingLayer {\n   81      get { return Renderer.sortingLayerName; }\n   82:     set { Renderer.sortingLayerName = value; }\n   83    }\n   84  \n   ..\n   86    public int SortingOrder {\n   87      get { return Renderer.sortingOrder; }\n   88:     set { Renderer.sortingOrder = value; }\n   89    }\n   90  \n   91    /// 座標(X).\n   92    public float X {\n   93:     set {\n   94        Vector3 pos = transform.position;\n   95        pos.x = value;\n   ..\n  101    /// 座標(Y).\n  102    public float Y {\n  103:     set {\n  104        Vector3 pos = transform.position;\n  105        pos.y = value;\n  ...\n  122  \n  123    /// 座標を設定する.\n  124:   public void SetPosition (float x, float y)\n  125    {\n  126      Vector3 pos = transform.position;\n  127:     pos.Set (x, y, 0);\n  128      transform.position = pos;\n  129    }\n  130  	/// 座標を設定する.\n  131: 	public void SetPosition (Token t)\n  132  	{\n  133: 		SetPosition(t.X, t.Y);\n  134  	}\n  135    /// スケール値(X).\n  136    public float ScaleX {\n  137:     set {\n  138        Vector3 scale = transform.localScale;\n  139        scale.x = value;\n  ...\n  145    /// スケール値(Y).\n  146    public float ScaleY {\n  147:     set {\n  148        Vector3 scale = transform.localScale;\n  149        scale.y = value;\n  ...\n  154  \n  155    /// スケール値を設定.\n  156:   public void SetScale (float x, float y)\n  157    {\n  158      Vector3 scale = transform.localScale;\n  159:     scale.Set (x, y, (x + y) / 2);\n  160      transform.localScale = scale;\n  161    }\n  ...\n  167        return (scale.x + scale.y) / 2.0f;\n  168      }\n  169:     set {\n  170        Vector3 scale = transform.localScale;\n  171        scale.x = value;\n  ...\n  198  \n  199    /// 移動量を設定.\n  200:   public void SetVelocity (float direction, float speed)\n  201    {\n  202      Vector2 v;\n  ...\n  207  \n  208    /// 移動量を設定(X/Y).\n  209:   public void SetVelocityXY (float vx, float vy)\n  210    {\n  211      Vector2 v;\n  ...\n  224    public float VX {\n  225      get { return RigidBody.velocity.x; }\n  226:     set {\n  227        Vector2 v = RigidBody.velocity;\n  228        v.x = value;\n  ...\n  234    public float VY {\n  235      get { return RigidBody.velocity.y; }\n  236:     set {\n  237        Vector2 v = RigidBody.velocity;\n  238        v.y = value;\n  ...\n  260    public float GravityScale {\n  261      get { return RigidBody.gravityScale; }\n  262:     set { RigidBody.gravityScale = value; }\n  263    }\n  264  \n  265    /// 回転角度.\n  266    public float Angle {\n  267:     set { transform.eulerAngles = new Vector3 (0, 0, value); }\n  268      get { return transform.eulerAngles.z; }\n  269    }\n  270  \n  271    /// スプライトの設定.\n  272:   public void SetSprite (Sprite sprite)\n  273    {\n  274      Renderer.sprite = sprite;\n  ...\n  276  \n  277    /// 色設定.\n  278:   public void SetColor (float r, float g, float b)\n  279    {\n  280      var c = Renderer.color;\n  ...\n  285    }\n  286  	/// 色指定.(Color指定)\n  287: 	public void SetColor(Color c)\n  288  	{\n  289  		Renderer.color = c;\n  290  	}\n  291    /// アルファ値を設定.\n  292:   public void SetAlpha (float a)\n  293    {\n  294      var c = Renderer.color;\n  ...\n  306    /// アルファ値.\n  307    public float Alpha {\n  308:     set { SetAlpha (value); }\n  309      get { return GetAlpha (); }\n  310    }\n  ...\n  314    float _height = 0.0f;\n  315  \n  316:   public void SetSize (float width, float height)\n  317    {\n  318      _width = width;\n  ...\n  339    public float CollisionRadius {\n  340      get { return CircleCollider.radius; }\n  341:     set { CircleCollider.radius = value; }\n  342    }\n  343    // 円コリジョンの有効無効を設定する.\n  344    public bool CircleColliderEnabled {\n  345      get { return CircleCollider.enabled; }\n  346:     set { CircleCollider.enabled = value; }\n  347    }\n  348  \n  ...\n  357    public float BoxColliderWidth {\n  358      get { return BoxCollider.size.x; }\n  359:     set {\n  360        var size = BoxCollider.size;\n  361        size.x = value;\n  ...\n  367    public float BoxColliderHeight {\n  368      get { return BoxCollider.size.y; }\n  369:     set {\n  370        var size = BoxCollider.size;\n  371        size.y = value;\n  ...\n  374    }\n  375    // 箱コリジョンのサイズを設定する.\n  376:   public void SetBoxColliderSize (float w, float h)\n  377    {\n  378:     BoxCollider.size.Set (w, h);\n  379    }\n  380    // 箱コリジョンの有効無効を設定する\n  381    public bool BoxColliderEnabled {\n  382      get { return BoxCollider.enabled; }\n  383:     set { BoxCollider.enabled = value; }\n  384    }\n  385  \n  ...\n  468    public virtual void Revive ()\n  469    {\n  470:     gameObject.SetActive (true);\n  471      Exists = true;\n  472      Visible = true;\n  ...\n  482    public void VanishCannotOverride ()\n  483    {\n  484:     gameObject.SetActive (false);\n  485      Exists = false;\n  486    }\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\TokenMgr.cs:\n   36  		// 復活\n   37  		obj.Revive();\n   38: 		obj.SetPosition(x, y);\n   39      if(obj.RigidBody != null) {\n   40        // Rigidbody2Dがあるときのみ速度を設定する\n   41:       obj.SetVelocity(direction, speed);\n   42      }\n   43  		obj.Angle = 0;\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\Util.cs:\n   42  		Token t = obj.GetComponent<Token>();\n   43      // スプライト設定.\n   44: 		t.SetSprite(GetSprite(SpriteFile, SpriteName));\n   45      // 座標を設定.\n   46  		t.X = x;\n   ..\n   83  	}\n   84    /// フォントサイズを設定.\n   85: 	public static void SetFontSize(int size) {\n   86  		GetGUIStyle().fontSize = size;\n   87  	}\n   88    /// フォントカラーを設定.\n   89: 	public static void SetFontColor(Color color) {\n   90  		GetGUIStyle().normal.textColor = color;\n   91  	}\n   92    /// フォント位置設定\n   93:   public static void SetFontAlignment(TextAnchor align)\n   94    {\n   95      GetGUIStyle().alignment = align;\n   ..\n  117  	/// ゲームデータを保存する\n  118  	public static bool SaveData(Hashtable inthashdata, Hashtable strhashdata, Hashtable fhashdata){\n  119: 		PlayerPrefs.SetString(\"a\",\"kk\");\n  120  		foreach(DictionaryEntry datum in inthashdata){\n  121: 			PlayerPrefs.SetInt(datum.Key.ToString(), int.Parse(datum.Value.ToString()));\n  122  		}\n  123  		foreach(DictionaryEntry datum in strhashdata){\n  124: 			PlayerPrefs.SetString(datum.Key.ToString(), datum.Value.ToString());\n  125  		}		\n  126  		foreach(DictionaryEntry datum in fhashdata){\n  127: 			PlayerPrefs.SetFloat(datum.Key.ToString(), float.Parse(datum.Value.ToString()));\n  128  		}	\n  129  \n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\Vec2D.cs:\n   16      y = py;\n   17    }\n   18:   public void Set(float px, float py) {\n   19      x = px;\n   20      y = py;\n   21    }\n   22    public void Copy(Vec2D v) {\n   23:     Set(v.x, v.y);\n   24    }\n   25    public void Dump() {\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\Slider.cs:\n   25  		return slider.value;\n   26  	}\n   27: 	public void SetValue(int val){\n   28  		slider = slider ?? GetComponent<Slider>();\n   29  		slider.value = val;\n   30  	}\n   31: 	public void SetValue(float val){\n   32  		slider = slider ?? GetComponent<Slider>();\n   33  		slider.value = val;\n\n249 matches across 47 files\n\n\nSearching 62 files for \"Behavior\"\n\n0 matches\n\nSearching 62 files for \"Behaviour\"\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\cage.cs:\n    2  using System.Collections;\n    3  \n    4: public class cage : MonoBehaviour {\n    5  	public Color color;    // 変更後のメッシュの色\n    6  \n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Map.cs:\n    2  using System.Collections;\n    3  \n    4: public class Map : MonoBehaviour {\n    5  \n    6  	// Use this for initialization\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\TitleMgr.cs:\n    2  using System.Collections;\n    3  \n    4: public class TitleMgr : MonoBehaviour {\n    5  \n    6  	void OnGUI()\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Towerdefense\\CreateTdMap.cs:\n    3  \n    4  	//タワーディフェンス用のマップを作製する \n    5: public class CreateTdMap : MonoBehaviour {\n    6  \n    7  	// Use this for initialization\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Towerdefense\\GameMgr.cs:\n    4  \n    5  /// ゲーム管理\n    6: public class GameMgr : MonoBehaviour\n    7  {\n    8    /// 停止タイマー\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\FileIO.cs:\n    6  \n    7  \n    8: public class FileIO : MonoBehaviour {\n    9  \n   10  	// Use this for initialization\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\ImageObj.cs:\n    7  \n    8  /// </summary>\n    9: public class ImageObj : MonoBehaviour {\n   10  	\n   11  	\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\MyCanvas.cs:\n    3  using UnityEngine.UI;\n    4  \n    5: public class MyCanvas : MonoBehaviour {\n    6  	\n    7  	static Canvas _canvas;\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\SoundManager.cs:\n    2  using System.Collections;\n    3  \n    4: public class SoundManager : MonoBehaviour {\n    5  \n    6  	public AudioSource efxSource; //効果音用AudioSource\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\TextObj.cs:\n    7  /// ※速度パラメータを使用するにはRigidbody2Dのアタッチが必要\n    8  /// </summary>\n    9: public class TextObj : MonoBehaviour {\n   10  	\n   11  	\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\Token.cs:\n    5  /// SpriteRendererが必要.\n    6  [RequireComponent (typeof(SpriteRenderer))]\n    7: public class Token : MonoBehaviour\n    8  {\n    9    /// プレハブ取得.\n\n11 matches across 11 files\n\n\nSearching 62 files for \"Awake\"\n\nC:\\Users\\moritania\\Desktop\\wavserver\\unity\\prac_2d\\Assets\\Scripts\\Unity\\SoundManager.cs:\n   15  \n   16  	//シングルトンの処理\n   17: 	void Awake ()\n   18  	{\n   19  		if (instance == null)\n\n1 match in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 38223,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "Unity/MyCanvas.cs",
+			"settings":
+			{
+				"buffer_size": 1660,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/Unity/AudioSource.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/Dialog.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/CountryDialog.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/CountryDat.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/Towerdefense/Field.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/Unity/ButtonObj.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/SyntaxDialog.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/Tama.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/Unity/FileIO.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/MapScene.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/CountryBtn.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/Towerdefense/Cursor.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/Towerdefense/GameMgr.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/Unity/Slider.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/Unity/TextObj.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/Unity/Vec2D.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/Unity/Layer2D.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/Towerdefense/CreateTdMap.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/Unity/SoundManager.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/Towerdefense/WaveStart.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/Towerdefense/Enemy.cs",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/Unity/CreateMap.cs",
+		"/C/Users/moritania/AppData/Roaming/Sublime Text 3/Packages/User/Unity_Td.sublime-project",
+		"/C/Users/moritania/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/moritania/Desktop/wavserver/unity/prac_2d/Assets/Scripts/Alloy.cs",
+		"/C/Users/moritania/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Awake",
+			"Behaviour",
+			"Behavior",
+			"set",
+			"ButtonObj",
+			"placeable",
+			"set",
+			"_lCollision",
+			"Dictionary",
+			"List",
+			"F",
+			"List",
+			"field",
+			"Load",
+			"TMXLoader"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Settings.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								482,
+								482
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Unity/SoundManager.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 48.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Unity/MusicSource.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								238,
+								238
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "MapScene.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11,
+								11
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 346,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								346,
+								346
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "SettingDialog.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1015,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Towerdefense/Enemy.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Unity/Token.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								990,
+								990
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 38223,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										195,
+										204
+									],
+									[
+										420,
+										429
+									],
+									[
+										624,
+										633
+									],
+									[
+										651,
+										660
+									],
+									[
+										817,
+										826
+									],
+									[
+										874,
+										883
+									],
+									[
+										1153,
+										1162
+									],
+									[
+										1335,
+										1344
+									],
+									[
+										1568,
+										1577
+									],
+									[
+										1691,
+										1700
+									],
+									[
+										1738,
+										1747
+									],
+									[
+										1788,
+										1797
+									],
+									[
+										1931,
+										1940
+									],
+									[
+										2108,
+										2117
+									],
+									[
+										2197,
+										2206
+									],
+									[
+										2286,
+										2295
+									],
+									[
+										2491,
+										2500
+									],
+									[
+										2723,
+										2726
+									],
+									[
+										2932,
+										2935
+									],
+									[
+										3031,
+										3034
+									],
+									[
+										3068,
+										3071
+									],
+									[
+										3150,
+										3153
+									],
+									[
+										3175,
+										3178
+									],
+									[
+										3427,
+										3430
+									],
+									[
+										3575,
+										3578
+									],
+									[
+										3804,
+										3807
+									],
+									[
+										4153,
+										4156
+									],
+									[
+										4302,
+										4305
+									],
+									[
+										4473,
+										4476
+									],
+									[
+										4746,
+										4749
+									],
+									[
+										4933,
+										4936
+									],
+									[
+										4966,
+										4969
+									],
+									[
+										5111,
+										5114
+									],
+									[
+										5143,
+										5146
+									],
+									[
+										5336,
+										5339
+									],
+									[
+										5590,
+										5593
+									],
+									[
+										5605,
+										5608
+									],
+									[
+										5728,
+										5731
+									],
+									[
+										5789,
+										5792
+									],
+									[
+										5881,
+										5884
+									],
+									[
+										5940,
+										5943
+									],
+									[
+										5958,
+										5961
+									],
+									[
+										5995,
+										5998
+									],
+									[
+										6011,
+										6014
+									],
+									[
+										6038,
+										6041
+									],
+									[
+										6220,
+										6223
+									],
+									[
+										6376,
+										6379
+									],
+									[
+										6480,
+										6483
+									],
+									[
+										6517,
+										6520
+									],
+									[
+										6599,
+										6602
+									],
+									[
+										6677,
+										6680
+									],
+									[
+										6806,
+										6809
+									],
+									[
+										6892,
+										6895
+									],
+									[
+										7061,
+										7064
+									],
+									[
+										7166,
+										7169
+									],
+									[
+										7267,
+										7270
+									],
+									[
+										7368,
+										7371
+									],
+									[
+										7604,
+										7607
+									],
+									[
+										7851,
+										7854
+									],
+									[
+										7924,
+										7927
+									],
+									[
+										8124,
+										8127
+									],
+									[
+										8325,
+										8328
+									],
+									[
+										8457,
+										8460
+									],
+									[
+										8689,
+										8692
+									],
+									[
+										8894,
+										8897
+									],
+									[
+										8972,
+										8975
+									],
+									[
+										9023,
+										9026
+									],
+									[
+										9123,
+										9126
+									],
+									[
+										9132,
+										9135
+									],
+									[
+										9204,
+										9207
+									],
+									[
+										9213,
+										9216
+									],
+									[
+										9315,
+										9318
+									],
+									[
+										9478,
+										9481
+									],
+									[
+										9610,
+										9613
+									],
+									[
+										9674,
+										9677
+									],
+									[
+										9795,
+										9798
+									],
+									[
+										10056,
+										10059
+									],
+									[
+										10128,
+										10131
+									],
+									[
+										10401,
+										10404
+									],
+									[
+										10523,
+										10526
+									],
+									[
+										10652,
+										10655
+									],
+									[
+										10840,
+										10843
+									],
+									[
+										10871,
+										10874
+									],
+									[
+										11068,
+										11071
+									],
+									[
+										11226,
+										11229
+									],
+									[
+										11499,
+										11502
+									],
+									[
+										11632,
+										11635
+									],
+									[
+										11898,
+										11901
+									],
+									[
+										12042,
+										12045
+									],
+									[
+										12335,
+										12338
+									],
+									[
+										12426,
+										12429
+									],
+									[
+										12576,
+										12579
+									],
+									[
+										12756,
+										12759
+									],
+									[
+										12843,
+										12846
+									],
+									[
+										12957,
+										12960
+									],
+									[
+										13082,
+										13085
+									],
+									[
+										13162,
+										13165
+									],
+									[
+										13369,
+										13372
+									],
+									[
+										13578,
+										13581
+									],
+									[
+										13641,
+										13644
+									],
+									[
+										13738,
+										13741
+									],
+									[
+										13853,
+										13856
+									],
+									[
+										14119,
+										14122
+									],
+									[
+										14130,
+										14133
+									],
+									[
+										14214,
+										14217
+									],
+									[
+										14377,
+										14380
+									],
+									[
+										14577,
+										14580
+									],
+									[
+										14754,
+										14757
+									],
+									[
+										15044,
+										15047
+									],
+									[
+										15203,
+										15206
+									],
+									[
+										15285,
+										15288
+									],
+									[
+										15375,
+										15378
+									],
+									[
+										15445,
+										15448
+									],
+									[
+										15585,
+										15588
+									],
+									[
+										15668,
+										15671
+									],
+									[
+										15758,
+										15761
+									],
+									[
+										15828,
+										15831
+									],
+									[
+										15971,
+										15974
+									],
+									[
+										16052,
+										16055
+									],
+									[
+										16140,
+										16143
+									],
+									[
+										16205,
+										16208
+									],
+									[
+										16274,
+										16277
+									],
+									[
+										16397,
+										16400
+									],
+									[
+										16478,
+										16481
+									],
+									[
+										16527,
+										16530
+									],
+									[
+										16579,
+										16582
+									],
+									[
+										16695,
+										16698
+									],
+									[
+										16894,
+										16897
+									],
+									[
+										16957,
+										16960
+									],
+									[
+										17147,
+										17150
+									],
+									[
+										17311,
+										17314
+									],
+									[
+										17442,
+										17445
+									],
+									[
+										17692,
+										17695
+									],
+									[
+										17780,
+										17783
+									],
+									[
+										17868,
+										17871
+									],
+									[
+										18078,
+										18081
+									],
+									[
+										18193,
+										18196
+									],
+									[
+										18425,
+										18428
+									],
+									[
+										18627,
+										18630
+									],
+									[
+										18711,
+										18714
+									],
+									[
+										18941,
+										18944
+									],
+									[
+										19054,
+										19057
+									],
+									[
+										19200,
+										19203
+									],
+									[
+										19344,
+										19347
+									],
+									[
+										19506,
+										19509
+									],
+									[
+										19713,
+										19716
+									],
+									[
+										19836,
+										19839
+									],
+									[
+										19951,
+										19954
+									],
+									[
+										20170,
+										20173
+									],
+									[
+										20214,
+										20217
+									],
+									[
+										20449,
+										20452
+									],
+									[
+										20611,
+										20614
+									],
+									[
+										20766,
+										20769
+									],
+									[
+										20958,
+										20961
+									],
+									[
+										21093,
+										21096
+									],
+									[
+										21206,
+										21209
+									],
+									[
+										21334,
+										21337
+									],
+									[
+										21472,
+										21475
+									],
+									[
+										21668,
+										21671
+									],
+									[
+										21765,
+										21768
+									],
+									[
+										21884,
+										21887
+									],
+									[
+										22017,
+										22020
+									],
+									[
+										22169,
+										22172
+									],
+									[
+										22327,
+										22330
+									],
+									[
+										22497,
+										22500
+									],
+									[
+										22711,
+										22714
+									],
+									[
+										22888,
+										22891
+									],
+									[
+										23079,
+										23082
+									],
+									[
+										23100,
+										23103
+									],
+									[
+										23259,
+										23262
+									],
+									[
+										23326,
+										23329
+									],
+									[
+										23388,
+										23391
+									],
+									[
+										23534,
+										23537
+									],
+									[
+										23574,
+										23577
+									],
+									[
+										23614,
+										23617
+									],
+									[
+										23652,
+										23655
+									],
+									[
+										23749,
+										23752
+									],
+									[
+										23766,
+										23769
+									],
+									[
+										23831,
+										23834
+									],
+									[
+										23942,
+										23945
+									],
+									[
+										23958,
+										23961
+									],
+									[
+										24047,
+										24050
+									],
+									[
+										24067,
+										24070
+									],
+									[
+										24076,
+										24079
+									],
+									[
+										24110,
+										24113
+									],
+									[
+										24128,
+										24131
+									],
+									[
+										24142,
+										24145
+									],
+									[
+										24152,
+										24155
+									],
+									[
+										24278,
+										24281
+									],
+									[
+										24298,
+										24301
+									],
+									[
+										24496,
+										24499
+									],
+									[
+										24689,
+										24692
+									],
+									[
+										24903,
+										24906
+									],
+									[
+										24944,
+										24947
+									],
+									[
+										25096,
+										25099
+									],
+									[
+										25353,
+										25356
+									],
+									[
+										25438,
+										25441
+									],
+									[
+										25611,
+										25614
+									],
+									[
+										25738,
+										25741
+									],
+									[
+										25876,
+										25879
+									],
+									[
+										26072,
+										26075
+									],
+									[
+										26169,
+										26172
+									],
+									[
+										26288,
+										26291
+									],
+									[
+										26421,
+										26424
+									],
+									[
+										26573,
+										26576
+									],
+									[
+										26731,
+										26734
+									],
+									[
+										26901,
+										26904
+									],
+									[
+										27099,
+										27102
+									],
+									[
+										27141,
+										27144
+									],
+									[
+										27327,
+										27330
+									],
+									[
+										27615,
+										27618
+									],
+									[
+										27837,
+										27840
+									],
+									[
+										27854,
+										27857
+									],
+									[
+										28064,
+										28067
+									],
+									[
+										28081,
+										28084
+									],
+									[
+										28274,
+										28277
+									],
+									[
+										28410,
+										28413
+									],
+									[
+										28571,
+										28574
+									],
+									[
+										28734,
+										28737
+									],
+									[
+										28849,
+										28852
+									],
+									[
+										28993,
+										28996
+									],
+									[
+										29131,
+										29134
+									],
+									[
+										29233,
+										29236
+									],
+									[
+										29337,
+										29340
+									],
+									[
+										29378,
+										29381
+									],
+									[
+										29476,
+										29479
+									],
+									[
+										29634,
+										29637
+									],
+									[
+										29779,
+										29782
+									],
+									[
+										29884,
+										29887
+									],
+									[
+										30039,
+										30042
+									],
+									[
+										30182,
+										30185
+									],
+									[
+										30319,
+										30322
+									],
+									[
+										30479,
+										30482
+									],
+									[
+										30648,
+										30651
+									],
+									[
+										30829,
+										30832
+									],
+									[
+										30948,
+										30951
+									],
+									[
+										31121,
+										31124
+									],
+									[
+										31248,
+										31251
+									],
+									[
+										31394,
+										31397
+									],
+									[
+										31505,
+										31508
+									],
+									[
+										31637,
+										31640
+									],
+									[
+										31643,
+										31646
+									],
+									[
+										31779,
+										31782
+									],
+									[
+										31959,
+										31962
+									],
+									[
+										32145,
+										32148
+									],
+									[
+										32308,
+										32311
+									],
+									[
+										32490,
+										32493
+									],
+									[
+										32634,
+										32637
+									],
+									[
+										32711,
+										32714
+									],
+									[
+										32863,
+										32866
+									],
+									[
+										32997,
+										33000
+									],
+									[
+										33152,
+										33155
+									],
+									[
+										33346,
+										33349
+									],
+									[
+										33463,
+										33466
+									],
+									[
+										33693,
+										33696
+									],
+									[
+										33846,
+										33849
+									],
+									[
+										33972,
+										33975
+									],
+									[
+										34109,
+										34112
+									],
+									[
+										34354,
+										34357
+									],
+									[
+										34453,
+										34456
+									],
+									[
+										34607,
+										34610
+									],
+									[
+										34753,
+										34756
+									],
+									[
+										34976,
+										34979
+									],
+									[
+										35099,
+										35102
+									],
+									[
+										35299,
+										35302
+									],
+									[
+										35429,
+										35432
+									],
+									[
+										35791,
+										35800
+									],
+									[
+										36002,
+										36011
+									],
+									[
+										36217,
+										36226
+									],
+									[
+										36431,
+										36440
+									],
+									[
+										36641,
+										36650
+									],
+									[
+										36813,
+										36822
+									],
+									[
+										37023,
+										37032
+									],
+									[
+										37211,
+										37220
+									],
+									[
+										37433,
+										37442
+									],
+									[
+										37696,
+										37705
+									],
+									[
+										37922,
+										37931
+									],
+									[
+										38154,
+										38159
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								37992,
+								37992
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 5,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ 	].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 19830.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "Unity/MyCanvas.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1660,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sublime.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
